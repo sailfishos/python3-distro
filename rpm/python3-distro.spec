@@ -38,9 +38,9 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/distro.py
-%{python3_sitearch}/distro-*.egg-info
-%{python3_sitearch}/__pycache__/*
+%{python3_sitelib}/distro.py
+%{python3_sitelib}/distro-*.egg-info
+%{python3_sitelib}/__pycache__/*
 
 %files tools
 %defattr(-,root,root,-)
