@@ -3,7 +3,7 @@ Summary:    Provides information about the OS distribution it runs on
 Version:    1.5.0
 Release:    1
 License:    ASL 2.0
-URL:        https://pypi.org/project/distro/
+URL:        https://github.com/sailfishos/python3-distro
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   python3-base
